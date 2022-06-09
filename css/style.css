@@ -1,7 +1,5 @@
 @import url('https://fonts.googleapis.com/css?family=Noto+Serif:400');
 
-html {font-size: 112.5%;} /*18px*/
-
 body {
   background: white;
   font-family: 'Noto Serif', serif;
@@ -42,9 +40,12 @@ small, .text_small {font-size: 0.75rem;}
 .center-column{
 	max-width: 768px;
 	margin: auto;
+	padding-left: 1em;
+	padding-right: 1em;
 }
 
 .button-link{
 	padding: 0.5em;
 	border: 1px solid;
+	background-color: white;
 }
