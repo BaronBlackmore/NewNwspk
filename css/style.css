@@ -89,19 +89,18 @@ a:hover{
 }
 
 .main{
-	flex: 1 1 768px;
+	flex: 0 768px;
 }
 
 .screen-side{
-	flex: 0 0;
-	
+	flex: 1;
 }
 
 .center-column{
 	max-width: 768px;
 	margin: auto;
-	padding-left: 1em;
-	padding-right: 1em;
+	padding-left: 3em;
+	padding-right: 3em;
 }
 
 .button-link{
@@ -112,11 +111,21 @@ a:hover{
 }
 
 .nav{
- height: 100%;
- display: flex;
-flex-direction: column;
- /*background-color: #202020;*/
- position: fixed;
+	display: flex;
+	flex-direction: column;
+	position: relative;
+	left: -10em;
+	top: 1em;
+	margin-bottom: -16em;
+	width: 9em;
+	text-align: right;
+}
+
+.nav a{
+	 font-family: 'Copernicus','Georgia', serif;
+	 border: none;
+	 font-style: italic;
+	 text-transform: lowercase;
 }
 
 .head-image{
@@ -131,6 +140,10 @@ flex-direction: column;
 
 	.nav{
 		position: inherit;
+		margin-bottom: 1em;
+		flex-direction: row;
+		flex-wrap: wrap;
+		/*width: auto;*/
 	}
 
 	}
