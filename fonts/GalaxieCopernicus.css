@@ -1,0 +1,51 @@
+@font-face {
+	font-family: 'Copernicus';
+	src: url('GalaxieCopernicus-Medium.eot');
+	src: url('GalaxieCopernicus-Medium.eot?#iefix') format('embedded-opentype'),
+		url('GalaxieCopernicus-Medium.woff2') format('woff2'),
+		url('GalaxieCopernicus-Medium.woff') format('woff'),
+		 url('GalaxieCopernicus-Medium.ttf') format('truetype'),
+		url('GalaxieCopernicus-Medium.svg#') format('svg');      
+	font-weight: 500;
+	font-style: normal;
+	font-stretch: normal;
+}
+
+@font-face {
+	font-family: 'Copernicus';
+	src: url('GalaxieCopernicus-MediumItalic.eot');
+	src: url('GalaxieCopernicus-MediumItalic.eot?#iefix') format('embedded-opentype'),
+		url('GalaxieCopernicus-MediumItalic.woff2') format('woff2'),
+		url('GalaxieCopernicus-MediumItalic.woff') format('woff'),
+		 url('GalaxieCopernicus-MediumItalic.ttf') format('truetype'),
+		url('GalaxieCopernicus-MediumItalic.svg#') format('svg');      
+	font-weight: 500;
+	font-style: italic;
+	font-stretch: normal;
+}
+
+@font-face {
+	font-family: 'Copernicus-Semi';
+	src: url('GalaxieCopernicus-Semibold.eot');
+	src: url('GalaxieCopernicus-Semibold.eot?#iefix') format('embedded-opentype'),
+		url('GalaxieCopernicus-Semibold.woff2') format('woff2'),
+		url('GalaxieCopernicus-Semibold.woff') format('woff'),
+		 url('GalaxieCopernicus-Semibold.ttf') format('truetype'),
+		url('GalaxieCopernicus-Semibold.svg#') format('svg');      
+	font-weight: 700;
+	font-style: normal;
+	font-stretch: normal;
+}
+
+@font-face {
+	font-family: 'Copernicus-Semi';
+	src: url('GalaxieCopernicus-SemiboldItalic.eot');
+	src: url('GalaxieCopernicus-SemiboldItalic.eot?#iefix') format('embedded-opentype'),
+		url('GalaxieCopernicus-SemiboldItalic.woff2') format('woff2'),
+		url('GalaxieCopernicus-SemiboldItalic.woff') format('woff'),
+		 url('GalaxieCopernicus-SemiboldItalic.ttf') format('truetype'),
+		url('GalaxieCopernicus-SemiboldItalic.svg#') format('svg');      
+	font-weight: 700;
+	font-style: italic;
+	font-stretch: normal;
+}
