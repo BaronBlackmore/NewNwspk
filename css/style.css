@@ -1,21 +1,5 @@
 @import url('https://fonts.googleapis.com/css2?family=Lato&display=swap'); 
 
-@font-face {
-    font-family: 'Copernicus';
-    src: url('/fonts/GalaxieCopernicus-Book.ttf') format('ttf'),
-    font-weight: normal;
-    font-style: normal;
-
-}
-
-@font-face {
-    font-family: 'Copernicus';
-    src: url('/fonts/GalaxieCopernicus-BookItalic') format('ttf'),
-    font-weight: normal;
-    font-style: italic;
-
-}
-
 body {
   background: white;
   font-family: 'Copernicus','Georgia', serif;
@@ -140,6 +124,10 @@ li{
 .head-image{
 	width: 100%;
 	padding-top: 5em;
+}
+
+.foot{
+	border-top: solid 1px #2e2e2e;;
 }
 
 @media(max-width: 800px){
