@@ -10,7 +10,7 @@
 
 @font-face {
     font-family: 'Copernicus';
-    src: url('/fonts/GalaxieCopernicus-BookItalic.ttf') format('ttf'),
+    src: url('/fonts/GalaxieCopernicus-BookItalic') format('ttf'),
     font-weight: normal;
     font-style: italic;
 
@@ -23,9 +23,11 @@ body {
   line-height: 1.75;
   color: #171717;
   background-color: #f1f1f1;
+  display: flex;
+  flex-direction: row;
 }
 
-p {margin-bottom: 1rem;}
+/*p {margin-bottom: 1rem;}*/
 
 h1, h2, h3, h4, h5 {
   margin: 3rem 0 1.38rem;
@@ -37,28 +39,28 @@ h1, h2, h3, h4, h5 {
 h1 {
 	font-size: 3.19em;
 	line-height: 1.18em;
-	padding-top: 0.255em;
+	padding-top: 0.843em;
 	margin-bottom: 0.333em;
 }
 
 h2 {
 	font-size: 2.38em;
 	line-height: 1.58em;
-	padding-top: 0.447em;
+	padding-top: 1.24em;
 	margin-bottom: 0.342em;
 }
 
 h3 {
 	font-size: 1.75em;
 	line-height: 1.07em;
-	padding-top: 0.179em;
+	padding-top: 1.25em;
 	margin-bottom: 0.893em;
 }
 
 h4 {
 	font-size: 1.31em;
 	line-height: 1.43em;
-	padding-top: 0.381em;
+	padding-top: 1.81em;
 	margin-bottom: 1.05em;
 }
 
@@ -82,8 +84,12 @@ a{
 	letter-spacing: 0.1em;
 }
 
-.main{
+a:hover{
+	color: #da3531;
+}
 
+.main{
+	felx: 1 1 768px;
 }
 
 .center-column{
@@ -103,4 +109,21 @@ a{
 .nav{
  height: 100%;
  background-color: #202020;
+ position: fixed;
 }
+
+.head-image{
+	width: 100%;
+	padding-top: 5em;
+}
+
+@media(max-width: 800px){
+	.screen-side{
+			display: none;
+	}
+
+	.nav{
+		position: inherit;
+	}
+
+	}
