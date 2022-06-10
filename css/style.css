@@ -139,10 +139,15 @@ li{
 .event-details{
 	font-family: 'Lato', sans-serif;
   text-transform: uppercase;
+  font-weight: 400;
+letter-spacing: 0.1em;
 }
 
 .event-title{
 	font-weight: 700;
+font-size: 1.31em;
+line-height: 1.43em;
+padding-top: 0.8em;
 }
 
 .event-host{
