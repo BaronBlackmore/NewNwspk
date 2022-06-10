@@ -136,6 +136,19 @@ li{
 	padding-left: 1em;
 }
 
+.event-details{
+	font-family: 'Lato', sans-serif;
+  text-transform: uppercase;
+}
+
+.event-title{
+	font-weight: 700;
+}
+
+.event-host{
+	font-style: italic;
+}
+
 @media(max-width: 800px){
 	.screen-side{
 			display: none;
