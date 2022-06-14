@@ -134,18 +134,31 @@ li{
 	border-bottom: 1px solid;
 	display: flex;
 	flex-direction: row;
+	justify-content: space-between;
+	padding-top: 5em;
+	padding-bottom: 10px;
 }
 
 .head-title img{
-	width: 10vw;
+	width: 16%;
+height: auto;
+
+}
+
+.head-text h1{
+	font-weight: 700;
+text-transform: uppercase;
+font-size: 300%;
+margin: 0;
+padding: 0;
 }
 
 .head-text h3{
-	font-size: 80vw;
-}
-
-.head-text h4{
-	font-size: 80vw;
+margin: 0;
+padding: 0;
+font-weight: 700;
+	font-style: italic;
+font-size: 155%;
 }
 
 .foot{
