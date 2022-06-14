@@ -124,9 +124,28 @@ li{
 
 .head-image{
 	width: 100%;
-	padding-top: 5em;
+	/*padding-top: 5em;*/
 	border-bottom: 1px solid;
 	padding-bottom: 1em;
+}
+
+.head-title{
+	width: 100%;
+	border-bottom: 1px solid;
+	display: flex;
+	flex-direction: row;
+}
+
+.head-title img{
+	width: 10vw;
+}
+
+.head-text h3{
+	font-size: 80vw;
+}
+
+.head-text h4{
+	font-size: 80vw;
 }
 
 .foot{
